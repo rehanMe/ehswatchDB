@@ -1,5 +1,4 @@
-{
-	"result": [{
+[{
 	"metaDataValues": [{
 		"value": "{  \"location\": \"\",    \"incidenttitle\": \"\", \"describeincidentlocation\": \"\",  \"incidenttype\":\"\", \"dateofoccurrence\":\"\", \"department\":\"\", \"shift\":\"\", \"taskdescription\":\"\",\"immediatecorrectiveactiontaken\":\"\",\"suspectedcause\":\"\",\"datereported\":\"\"}",
 		"key": "model"
@@ -22,48 +21,7 @@
 	"version": 1,
 	"key": "IncidentManagementBarik",
 	"hasStartForm": true
-}, {
-	"metaDataValues": [{
-		"value": "{ \t\"location\": \"\", \t\"incidenttitle\": \"\", \t\"describeincidentlocation\": \"\", \t\"Incidenttype\": \"\", \t\"Near Miss\": false, \t\"Individual Injury\": false, \t\"Environmental Incident\": false, \t\"Damage to Property/ Equipment\": false, \t\"Security\": false, \t\"Fire/ Explosion\": false, \t\"Driving/ Traffic incident\": false, \t\"Electrical Flashover\": false, \t\"dateofoccurrence\": \"\", \t\"department\": \"\", \t\"shift\": \"\", \t\"taskDescription\": \"\", \t\"immediatecorrectiveactiontaken\": \"\", \t\"immediatecausetext\": \"\", \t\"datereported\": \"\", \t\"maps\": \"\", \t\"camera\": \"\", \t\"attachfromgallery\": \"\" }",
-		"key": "model"
-	}, {
-		"value": "{ \t\"isReadOnly\": false, \t\"commitMode\": \"Immediate\", \t\"validationMode\": \"immediate\", \t\"propertyAnnotations\": [{ \t\t\"name\": \"location\", \t\t\"displayName\": \"Location *\", \t\t\"editor\": \"AutoCompleteInline\", \t\t\"hintText\": \"Select location\", \t\t\"valuesProvider\": [], \t\t\"required\": true, \t\t\"index\": 0, \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Please select location.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"incidenttitle\", \t\t\"displayName\": \"Incident TITLE *\", \t\t\"editor\": \"MultilineText\", \t\t\"required\": true, \t\t\"index\": 1, \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Incident title field is empty.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"describeincidentlocation\", \t\t\"displayName\": \"Describe Incident Location *\", \t\t\"editor\": \"MultilineText\", \t\t\"required\": true, \t\t\"index\": 2, \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Describe Incident Location.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"Incidenttype\", \t\t\"displayName\": \"Incident Type\", \t\t\"index\": 3, \t\t\"editor\": \"SegmentedEditor\" \t}, { \t\t\"name\": \"Near Miss\", \t\t\"displayName\": \"Near Miss\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 1, \t\t\"index\": 4 \t}, { \t\t\"name\": \"Individual Injury\", \t\t\"displayName\": \"Individual Injury\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 2, \t\t\"index\": 5 \t}, { \t\t\"name\": \"Environmental Incident\", \t\t\"displayName\": \"Environmental Incident\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 3, \t\t\"index\": 6 \t}, { \t\t\"name\": \"Damage to Property/ Equipment\", \t\t\"displayName\": \"Damage to Property/ Equipment\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 4, \t\t\"index\": 7 \t}, { \t\t\"name\": \"Security\", \t\t\"displayName\": \"Security\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 5, \t\t\"index\": 8 \t}, { \t\t\"name\": \"Fire/ Explosion\", \t\t\"displayName\": \"Fire/ Explosion\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 6, \t\t\"index\": 9 \t}, { \t\t\"name\": \"Driving/ Traffic incident\", \t\t\"displayName\": \"Driving/ Traffic incident\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 7, \t\t\"index\": 10 \t}, { \t\t\"name\": \"Electrical Flashover\", \t\t\"displayName\": \"Electrical Flashover\", \t\t\"ids_label\": \"incidenttype\", \t\t\"ids\": 8, \t\t\"index\": 11 \t}, { \t\t\"name\": \"dateofoccurrence\", \t\t\"displayName\": \"Date of occurrence *\", \t\t\"editor\": \"DatePicker\", \t\t\"hintText\": \"Please select date\", \t\t\"index\": 12 \t}, { \t\t\"name\": \"department\", \t\t\"displayName\": \"Department *\", \t\t\"index\": 13, \t\t\"editor\": \"Picker\", \t\t\"valuesProvider\": [\"Choose One\", \"Administration\", \"Barik Energy Services\", \"Barik International\", \"Barik IT Solutions\", \"Barik Oil Field Services\", \"Barik Telecom\", \"Executive\", \"Finance\", \"HR\", \"JASCO\", \"JASCO Medical\", \"Maintenance\", \"Oman Private School\"], \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Please select observation made.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"shift\", \t\t\"displayName\": \"shift *\", \t\t\"editor\": \"Picker\", \t\t\"valuesProvider\": [\"Choose One\", \"Day\", \"Night\"], \t\t\"index\": 14, \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Please select company.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"taskDescription\", \t\t\"displayName\": \"Incident Description *\", \t\t\"editor\": \"MultilineText\", \t\t\"hintText\": \"Observation findings\", \t\t\"index\": 15, \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Please enter description.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"immediatecorrectiveactiontaken\", \t\t\"displayName\": \"Immediate Corrective Action Taken *\", \t\t\"editor\": \"MultilineText\", \t\t\"index\": 16, \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Please enter description.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"immediatecausetext\", \t\t\"displayName\": \"Immediate Cause Text *\", \t\t\"editor\": \"MultilineText\", \t\t\"index\": 17, \t\t\"validators\": [{ \t\t\t\"name\": \"NonEmpty\", \t\t\t\"params\": { \t\t\t\t\"errorMessage\": \"Please enter description.\" \t\t\t} \t\t}] \t}, { \t\t\"name\": \"datereported\", \t\t\"displayName\": \"Date Reported *\", \t\t\"editor\": \"DatePicker\", \t\t\"hintText\": \"Please select date\", \t\t\"index\": 18 \t}] }",
-		"key": "data"
-	}, {
-		"value": "true",
-		"key": "customvisible"
-	}, {
-		"value": "IMAssignforinvestigation.ftl",
-		"key": "Draft_submit_assignforinves"
-	}, {
-		"value": "IMClosed.ftl",
-		"key": "assignforinves_close_closedwithoutinves"
-	}, {
-		"value": "IMInvestigation.ftl",
-		"key": "assignforinves_submit_investigation"
-	}, {
-		"value": "IMApproval",
-		"key": "investigation_submit_approval"
-	}, {
-		"value": "IMInvestigationReturn.ftl",
-		"key": "approval_return_investigation"
-	}, {
-		"value": "IMClosed.ftl",
-		"key": "approval_close_closed"
-	}, {
-		"value": "IMAssignforinvestigation.ftl",
-		"key": "assigninveseditreadonly_submit_investigation"
-	}],
-	"deploymentId": "530053",
-	"name": "Incident Management",
-	"tenantId": "tenant_1",
-	"description": "Barik Group",
-	"id": "IncidentManagement:2:530056",
-	"category": "http://www.activiti.org/processdef",
-	"version": 2,
-	"key": "IncidentManagement",
-	"hasStartForm": true
-}, {
+},{
 	"metaDataValues": [{
 		"value": "{ \t\"location\": \"\", \t\"describelocation\": \"\", \t\"dateofobservation\": \"\", \t\"observationmade\": \"\", \t\"company\": \"\", \t\"taskDescription\": \"\", \t\"immediateactionstaken\": \"\", \t \"isacworking\" :\"\", \t\"maps\": \"\", \t\"camera\": \"\", \t\"attachfromgallery\": \"\" }",
 		"key": "model"
@@ -114,4 +72,3 @@
 	"key": "HSEObservation",
 	"hasStartForm": true
 }]
-	}
